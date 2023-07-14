@@ -34,7 +34,8 @@ def calculator():
     elif choice == 5:
         power(num1, num2)
     elif choice == 6:
-        root(num1, num2)
+        result = root(num1, num2)
+        print(f"Result: {result}")
     else:
         print("your Input is invalid!")
 
