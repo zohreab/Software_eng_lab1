@@ -1,3 +1,6 @@
+def add(num1, num2):
+    return num1 + num2
+
 def subtract(num1, num2):
     return num1 - num2
 
@@ -8,14 +11,14 @@ def calculator():
     print("1. Add")
     print("2. Subtract")
     print("3. Multiply")
-    print("3. Divide")
+    print("4. Divide")
     print("5. Power")
     print("6. Root")
 
 
     choice = int(input("Please enter your choice number (1-6): "))
 
-    num1 = float(input("Please enter the first number (for choices from 4 to 6 the first number is the base): "))
+    num1 = float(input("Please enter the first number (for option 4 and 5 the first number is the base and for 6 is the index): "))
     num2 = float(input("Please enter the second number: "))
 
     if choice == 1:
