@@ -1,6 +1,9 @@
 def subtract(num1, num2):
     return num1 - num2
 
+def root(index, radicand):
+    return radicand**(1/index)
+
 def calculator():
 
     print("Welcome to the Calculator app.")
