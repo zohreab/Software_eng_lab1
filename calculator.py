@@ -22,7 +22,8 @@ def calculator():
         result = add(num1, num2)
         print(f"Result: {result}")
     elif choice == 2:
-        subtract(num1, num2)
+        result = subtract(num1, num2)
+        print(f"Result: {result}")
     elif choice == 3:
         mul(num1, num2)
     elif choice == 4:
