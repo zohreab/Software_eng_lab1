@@ -1,3 +1,6 @@
+def subtract(num1, num2):
+    return num1 - num2
+
 def calculator():
 
     print("Welcome to the Calculator app.")
@@ -19,7 +22,7 @@ def calculator():
         result = add(num1, num2)
         print(f"Result: {result}")
     elif choice == 2:
-        sub(num1, num2)
+        subtract(num1, num2)
     elif choice == 3:
         mul(num1, num2)
     elif choice == 4:
