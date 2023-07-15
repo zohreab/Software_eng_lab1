@@ -4,8 +4,13 @@ def add(num1, num2):
 def subtract(num1, num2):
     return num1 - num2
 
+feat/divide
 def divide(num1, num2):
     return num1 / num2
+
+def power(num1, num2):
+    return num1 ** num2    
+
 
 def root(index, radicand):
     return radicand**(1/index)
@@ -39,9 +44,10 @@ def calculator():
         result = divide(num1, num2)
         print(f"Result: {result}")
     elif choice == 5:
-        #adding something to create conflicts
-        num1 = num2 * 2
-        power(num1, num2)
+
+        result = power(num1, num2)
+        print(f"Result: {result}")
+
     elif choice == 6:
         result = root(num1, num2)
         print(f"Result: {result}")
