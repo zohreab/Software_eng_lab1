@@ -36,7 +36,8 @@ def calculator():
     elif choice == 3:
         mul(num1, num2)
     elif choice == 4:
-        divide(num1, num2)
+        result = divide(num1, num2)
+        print(f"Result: {result}")
     elif choice == 5:
         power(num1, num2)
     elif choice == 6:
