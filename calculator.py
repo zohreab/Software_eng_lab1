@@ -39,6 +39,8 @@ def calculator():
         result = divide(num1, num2)
         print(f"Result: {result}")
     elif choice == 5:
+        #adding something to create conflicts
+        num1 = num2 * 2
         power(num1, num2)
     elif choice == 6:
         result = root(num1, num2)
