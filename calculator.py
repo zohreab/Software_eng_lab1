@@ -4,7 +4,9 @@ def add(num1, num2):
 def subtract(num1, num2):
     return num1 - num2
 
-feat/divide
+def mul(num1, num2):
+    return num1 * num2 
+
 def divide(num1, num2):
     return num1 / num2
 
@@ -35,16 +37,20 @@ def calculator():
     if choice == 1:
         result = add(num1, num2)
         print(f"Result: {result}")
+
     elif choice == 2:
         result = subtract(num1, num2)
         print(f"Result: {result}")
+
     elif choice == 3:
-        mul(num1, num2)
+        result = mul(num1, num2)
+        print(f"Result: {result}")
+
     elif choice == 4:
         result = divide(num1, num2)
         print(f"Result: {result}")
-    elif choice == 5:
 
+    elif choice == 5:
         result = power(num1, num2)
         print(f"Result: {result}")
 
