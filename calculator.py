@@ -4,6 +4,9 @@ def add(num1, num2):
 def subtract(num1, num2):
     return num1 - num2
 
+def divide(num1, num2):
+    return num1 / num2
+
 def root(index, radicand):
     return radicand**(1/index)
 
@@ -33,7 +36,7 @@ def calculator():
     elif choice == 3:
         mul(num1, num2)
     elif choice == 4:
-        div(num1, num2)
+        divide(num1, num2)
     elif choice == 5:
         power(num1, num2)
     elif choice == 6:
